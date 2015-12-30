@@ -1,3 +1,4 @@
+/* global $ */
 /*
  **makes nav button of active section stay highlighted
  **smooth scrolling to section when nav button used
