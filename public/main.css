@@ -1,0 +1,90 @@
+section,
+header,
+footer,
+nav,
+body {
+  display: block;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+nav {
+  position: fixed;
+  font-size: 18px;
+  width: 100%;
+}
+
+nav#nav,
+nav#nav a,
+footer,
+footer #props a {
+  color: lightgray;
+  background: red;
+}
+
+footer {
+  font-size: 15px;
+}
+
+nav#nav a:hover {
+  color: red;
+  background: lightgray;
+}
+
+nav#nav li.active a {
+  color: darkred;
+  background: darkgray;
+}
+
+section {
+  color: lightgray;
+  height: 850px;
+  padding-top: 150px;
+  background-size: cover;
+  font-size: 15pt;
+
+}
+
+
+footer button {
+  color: #000;
+}
+
+footer button:hover {
+  background: #000;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+footer {
+  padding-top: 10px;
+
+}
+
+#home {
+  background: #6b6e23 no-repeat top center fixed;
+  text-align: center;
+  /*url("http://dreamatico.com/data_images/space/space-6.jpg") */
+}
+
+#home h1 {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+#home hr {
+  width: 25%;
+}
+
+#about {
+  background: #b1a688 no-repeat top center fixed;
+  /*url("https://i.ytimg.com/vi/cdWj8fXHQLg/maxresdefault.jpg")*/
+}
+
+#about-pic {
+  text-align: center;
+}
+
+#portfolio { background: #002;
+    /*url("http://www.media.inaf.it/wp-content/uploads/2013/12/crab-nebula.jpg") no-repeat top center fixed;*/
+}
+
